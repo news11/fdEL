@@ -7,5 +7,5 @@ The fdEL package contains codes for statistical tools developed in the paper ``E
 
 After installing `devtools' first, use the following code for installing fdEL:
 
-requiare (devtools)
-install_github("fdEL")
+require(devtools) 
+install_github("news11/fdEL")
