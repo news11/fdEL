@@ -1,0 +1,12 @@
+#' Occupation time data
+#'
+#' Observed occupation time based on data from subjects aged 65-and-older in the 2005--06 U.S. National Health and Nutrition Examination Survey
+#'
+#' @docType data
+#'
+#' @usage OTdata
+#'
+#' @format A list of two elements. The first element is a list of four elements corresponding to the four groups: veterans aged 75-and-older, non-veterans aged 75-and-older, veterans aged 65--74, and non-veterans aged aged 65--74. Each element contains a matrix of occupation time data, with each row containing the occupation time curve of each subject and each column corresponding to each activity level on the grid over which the occupation time is evaluated. The second element is the grid of activity levels over which the occupation time is evaluated.
+#'
+#' @source \href{https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2005}{National Health and Nutrition Examination Survey Data, 2005--2006}
+"OTdata"
