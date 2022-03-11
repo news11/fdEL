@@ -5,7 +5,7 @@
 #' @param x a matrix of data, where each column is a discretized version of a function and each row corresponds to each design time point.
 #' @param group.label a vector, each element being the group label corresponding to each column of \code{x}.
 #' @param n_boot number of bootstrap replications used in calibration.
-#' @param as_right_ind_keep_as0 the minimal (among the \code{length(unique(group.label))} groups) index in the vector of design time points corresponding to each element of the set \eqn{M} defined in Supplement Section 5.2.
+#' @param as_right_ind_keep_as0 the minimal (among the \code{length(unique(group.label))} groups) index in the vector of design time points corresponding to each element of the set \eqn{{\bf Z}} defined in Supplement Section 5.2.
 #' @param parameters a list of parameters for (parallel) computing: dir_path2 is the path to store the (parallel) computing files, no_cores is the number of cores to be used (1 if sequential computing), useseed decides whether one wants to set seed within each core, and seed controls the random number generation used in each core.
 #'
 #' @return a vector (p-value of the GPF test, p-value of the Fmaxb test).

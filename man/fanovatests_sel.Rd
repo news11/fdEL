@@ -22,7 +22,7 @@ fanovatests_sel(
 
 \item{n_boot}{number of bootstrap replications used in calibration.}
 
-\item{as_right_ind_keep_as0}{the minimal (among the \code{length(unique(group.label))} groups) index in the vector of design time points corresponding to each element of the set \eqn{M} defined in Supplement Section 5.2.}
+\item{as_right_ind_keep_as0}{the minimal (among the \code{length(unique(group.label))} groups) index in the vector of design time points corresponding to each element of the set \eqn{{\bf Z}} defined in Supplement Section 5.2.}
 
 \item{parameters}{a list of parameters for (parallel) computing: dir_path2 is the path to store the (parallel) computing files, no_cores is the number of cores to be used (1 if sequential computing), useseed decides whether one wants to set seed within each core, and seed controls the random number generation used in each core.}
 }

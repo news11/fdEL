@@ -5,7 +5,7 @@
 #' @param Ta a list with the j-th element being the matrix of observed functional data (e.g., occuptation time curve) for the j-th group, and the i-th row of that matrix representing the observed curve of the i-th subject in the j-th group
 #' @param as a vector consisting of the design time points (e.g., activity levels) of the observed functional data; that is, \eqn{{\bf G}_n} defined in Section 2.2 (from the smallest to the largest).
 #' @param n_boot number of bootstrap samples.
-#' @param as_right_ind_keep_as0 the minimal (among the \code{length(Ta)} groups) index in the vector \code{as} (defined above) corresponding to each element of the set \eqn{M} (defined in Suppplement Section 5.2).
+#' @param as_right_ind_keep_as0 the minimal (among the \code{length(Ta)} groups) index in the vector \code{as} (defined above) corresponding to each element of the set \eqn{{\bf Z}} (defined in Suppplement Section 5.2).
 #'
 #' @return a list containing the following:
 #'   \item{suptest}{test statistic of the proposed maximally selected EL test}

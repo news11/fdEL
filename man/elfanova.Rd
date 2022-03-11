@@ -13,7 +13,7 @@ elfanova(Ta, as, n_boot = 1000, as_right_ind_keep_as0 = length(as))
 
 \item{n_boot}{number of bootstrap samples.}
 
-\item{as_right_ind_keep_as0}{the minimal (among the \code{length(Ta)} groups) index in the vector \code{as} (defined above) corresponding to each element of the set \eqn{M} (defined in Suppplement Section 5.2).}
+\item{as_right_ind_keep_as0}{the minimal (among the \code{length(Ta)} groups) index in the vector \code{as} (defined above) corresponding to each element of the set \eqn{{\bf Z}} (defined in Suppplement Section 5.2).}
 }
 \value{
 a list containing the following:
