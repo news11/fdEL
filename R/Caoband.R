@@ -9,7 +9,7 @@
 #' @param mean_true a vector containing the true functional mean over \code{checkpts} (defined above)
 #' @param c a parameter for controlling the number of interior knots in estimating the functional mean, as described in Section 4 of Cao et al. (2012) (default = 0.5)
 #' @param p the order of spline functions (default = 2)
-#' @param b_M the number of copies in simulating \eqn{\zeta(x)} for constructing the confidence bounds, as described in Section 4 of Cao et al. (2012) (default = 0.5) (default = 1000)
+#' @param b_M the number of copies in simulating \eqn{\zeta(x)} for constructing the confidence bounds, as described in Section 4 of Cao et al. (2012) (default = 1000)
 #' @param alpha a vector of significance levels of interest (default = c(0.05, 0.01))
 #' @param N_m the number of interior knots in estimating the functional mean, as described in Section 4 of Cao et al. (2012)
 #' @param cov_nnd 1 if the initially smoothed covariance estimates are projected onto the space of non-negative definite matrices and 0 if not; -1 if not doing the aforementioned projection and not taken into account the fact that the resulting estimated covariance can have complex eigenvalues
